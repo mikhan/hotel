@@ -3,22 +3,25 @@
 }
 
 :root {
+  font-family: Roboto, sans-serif;
+  color: white;
+  background-color: var(--bg1);
+  color-scheme: dark;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   --primary-light: #484848;
   --primary: #212121;
-  --primary: #282c2f;
   --primary-dark: #000;
   --accent: #4c9e97;
+  --bg1: #0d1117;
+  --bg2: #21262e;
 }
 
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  background-color: var(--primary-dark);
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 a {

@@ -1,11 +1,12 @@
 .content {
   height: 100vh;
   overflow-y: scroll;
-  background-color: var(--primary);
+  color: hsla(0deg 0% 100% / 87%);
+  background-color: var(--bg2);
 }
 
 .content a {
-  color: white;
+  color: hsl(0deg 0% 100%);
 }
 
 .content-bar {
@@ -15,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   padding: 0 0 0 1rem;
-  background-color: var(--primary-dark);
+  background-color: var(--bg2);
 }
 
 .content-bar > span {
@@ -25,6 +26,8 @@
 pre {
   padding: 1rem;
   margin: 0;
+  font-family: "Fira Mono", monospace;
+  font-size: 14px;
   word-break: break-all;
 }
 
